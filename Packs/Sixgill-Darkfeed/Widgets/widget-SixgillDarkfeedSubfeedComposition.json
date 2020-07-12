@@ -2,20 +2,13 @@
     "id": "sixgill-darkfeed-subfeed-composition",
     "version": 1,
     "modified": "2020-06-02T13:37:31.692328578Z",
-    "sortValues": null,
-    "propagationLabels": [
-        "all"
-    ],
-    "vcShouldIgnore": false,
-    "commitMessage": "",
-    "shouldCommit": false,
     "name": "Sixgill Darkfeed - Subfeed Composition",
-    "prevName": "Sixgill Darkfeed - Subfeed Composition",
     "dataType": "indicators",
     "widgetType": "pie",
     "query": "sourceBrands:Sixgill_Darkfeed",
     "sort": null,
-    "isPredefined": false,
+    "description": "",
+    "isPredefined": true,
     "dateRange": {
         "fromDate": "0001-01-01T00:00:00Z",
         "toDate": "0001-01-01T00:00:00Z",

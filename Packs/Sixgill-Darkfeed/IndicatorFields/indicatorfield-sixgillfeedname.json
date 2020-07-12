@@ -1,13 +1,8 @@
 {
     "id": "indicator_sixgillfeedname",
-    "version": 2,
+    "version": -1,
     "modified": "2020-06-02T13:36:14.806722992Z",
-    "sortValues": null,
-    "vcShouldIgnore": false,
-    "commitMessage": "",
-    "shouldCommit": false,
     "name": "Sixgill Feed Name",
-    "prevName": "Sixgill Feed Name",
     "ownerOnly": false,
     "placeholder": "",
     "description": "Subfeed name",
@@ -25,9 +20,8 @@
     "useAsKpi": true,
     "locked": false,
     "system": false,
-    "content": false,
+    "content": true,
     "group": 2,
-    "mergeStrategy": "",
     "hidden": false,
     "associatedTypes": [
         "IP",
@@ -45,5 +39,5 @@
     "sla": 0,
     "threshold": 72,
     "breachScript": "",
-    "validatedError": ""
+    "fromVersion": "5.0.0"
 }

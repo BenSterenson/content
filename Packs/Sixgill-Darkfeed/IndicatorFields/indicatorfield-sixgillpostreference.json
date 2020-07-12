@@ -1,13 +1,8 @@
 {
     "id": "indicator_sixgillpostreference",
-    "version": 1,
+    "version": -1,
     "modified": "2020-06-03T12:36:51.599862171Z",
-    "sortValues": null,
-    "vcShouldIgnore": false,
-    "commitMessage": "",
-    "shouldCommit": false,
     "name": "Sixgill Post Reference",
-    "prevName": "Sixgill Post Reference",
     "ownerOnly": false,
     "placeholder": "",
     "description": "Reference to Sixgill portal",
@@ -25,9 +20,8 @@
     "useAsKpi": false,
     "locked": false,
     "system": false,
-    "content": false,
+    "content": true,
     "group": 2,
-    "mergeStrategy": "",
     "hidden": false,
     "associatedTypes": [
         "URL",
@@ -45,5 +39,5 @@
     "sla": 0,
     "threshold": 72,
     "breachScript": "",
-    "validatedError": ""
+    "fromVersion": "5.0.0"
 }

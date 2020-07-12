@@ -1,5 +1,5 @@
-id: Sixgill-Darkfeed-Test
-version: 3
+id: Sixgill-Darkfeed_Test
+version: -1
 name: Sixgill-Darkfeed_Test
 starttaskid: "0"
 tasks:
@@ -13,6 +13,7 @@ tasks:
       name: ""
       iscommand: false
       brand: ""
+      description: Sixgill Darkfeed Test Playbook
     nexttasks:
       '#none#':
       - "4"
@@ -132,6 +133,7 @@ tasks:
       id: 06ab245b-3fe8-4371-86ee-85abaff5a734
       version: -1
       name: Assert Outputs
+      description: ''
       type: condition
       iscommand: false
       brand: ""
@@ -178,4 +180,5 @@ view: |-
   }
 inputs: []
 outputs: []
-sourceplaybookid: Sixgill-Darkfeed_Test
+description: ''
+fromversion: 5.0.0

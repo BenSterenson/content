@@ -2,20 +2,13 @@
     "id": "sixgill-darkfeed-top-10-threat-actors",
     "version": 1,
     "modified": "2020-06-14T06:03:16.831524681Z",
-    "sortValues": null,
-    "propagationLabels": [
-        "all"
-    ],
-    "vcShouldIgnore": false,
-    "commitMessage": "",
-    "shouldCommit": false,
     "name": "Sixgill Darkfeed - Top 10 Threat Actors",
-    "prevName": "Sixgill Darkfeed - Top 10 Threat Actors",
     "dataType": "indicators",
     "widgetType": "bar",
     "query": "sourceBrands:Sixgill_Darkfeed",
     "sort": null,
-    "isPredefined": false,
+    "description": "",
+    "isPredefined": true,
     "dateRange": {
         "fromDate": "0001-01-01T00:00:00Z",
         "toDate": "0001-01-01T00:00:00Z",

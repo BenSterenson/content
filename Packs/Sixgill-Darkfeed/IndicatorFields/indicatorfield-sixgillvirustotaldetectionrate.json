@@ -1,13 +1,8 @@
 {
     "id": "indicator_sixgillvirustotaldetectionrate",
-    "version": 1,
+    "version": -1,
     "modified": "2020-06-03T08:27:50.503141435Z",
-    "sortValues": null,
-    "vcShouldIgnore": false,
-    "commitMessage": "",
-    "shouldCommit": false,
     "name": "Sixgill Virus Total Detection Rate",
-    "prevName": "Sixgill Virus Total Detection Rate",
     "ownerOnly": false,
     "placeholder": "",
     "description": "Virus Total Detection Rate",
@@ -25,9 +20,8 @@
     "useAsKpi": true,
     "locked": false,
     "system": false,
-    "content": false,
+    "content": true,
     "group": 2,
-    "mergeStrategy": "",
     "hidden": false,
     "associatedTypes": [
         "IP",
@@ -45,5 +39,5 @@
     "sla": 0,
     "threshold": 72,
     "breachScript": "",
-    "validatedError": ""
+    "fromVersion": "5.0.0"
 }

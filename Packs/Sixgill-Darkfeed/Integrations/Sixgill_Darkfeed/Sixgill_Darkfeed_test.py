@@ -331,10 +331,9 @@ expected_ioc_output = [{'value': '8f8ff6b696859c3afe7936c345b098bd', 'type': 'Fi
                                                                               'indicator--85d3d87b-76ed-'
                                                                               '4cab-b709-a43dfbdc5d8d',
                                                                           'kill_chain_phases':
-                                                                              [{
-                                                                                    'kill_chain_name':
-                                                                                    'lockheed-martin-cyber-kill-chain',
-                                                                                    'phase_name': 'weaponization'}],
+                                                                              [{'kill_chain_name':
+                                                                                'lockheed-martin-cyber-kill-chain',
+                                                                                'phase_name': 'weaponization'}],
                                                                           'labels': ['ip', 'lokibot_c2s'], 'lang': 'en',
                                                                           'modified': '2020-01-09T07:31:16.834Z',
                                                                           'object_marking_refs': [
@@ -425,22 +424,14 @@ expected_ioc_output = [{'value': '8f8ff6b696859c3afe7936c345b098bd', 'type': 'Fi
                                     'description': 'IP address was listed '
                                                    'as a proxy',
                                     'external_reference':
-                                        [{
-                                           'description':
-                                               'Mitre attack tactics '
-                                               'and technique reference',
-                                           'mitre_attack_tactic':
-                                               'Adversary OPSEC',
-                                           'mitre_attack_tactic_id': 'TA0021',
-                                           'mitre_attack_tactic_url':
-                                               'https://attack.mitre.org/tactics/TA0021/',
-                                           'mitre_attack_technique':
-                                               'Proxy/protocol relays',
-                                           'mitre_attack_technique_id':
-                                               'T1304',
-                                           'mitre_attack_technique_url':
-                                               'https://attack.mitre.org/techniques/T1304/',
-                                           'source_name': 'mitre-attack'}],
+                                        [{'description': 'Mitre attack tactics and technique reference',
+                                          'mitre_attack_tactic': 'Adversary OPSEC',
+                                          'mitre_attack_tactic_id': 'TA0021',
+                                          'mitre_attack_tactic_url': 'https://attack.mitre.org/tactics/TA0021/',
+                                          'mitre_attack_technique': 'Proxy/protocol relays',
+                                          'mitre_attack_technique_id': 'T1304',
+                                          'mitre_attack_technique_url': 'https://attack.mitre.org/techniques/T1304/',
+                                          'source_name': 'mitre-attack'}],
                                     'id': 'indicator--2ed98497-cef4'
                                           '-468c-9cee-4f05292b5142',
                                     'labels': ['anonymization', 'ip', 'proxy',

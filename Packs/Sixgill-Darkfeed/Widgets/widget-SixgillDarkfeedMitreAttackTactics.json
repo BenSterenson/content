@@ -2,20 +2,13 @@
     "id": "sixgill-darkfeed-mitre-attack-tactics",
     "version": 1,
     "modified": "2020-06-10T15:16:15.479365269Z",
-    "sortValues": null,
-    "propagationLabels": [
-        "all"
-    ],
-    "vcShouldIgnore": false,
-    "commitMessage": "",
-    "shouldCommit": false,
     "name": "Sixgill Darkfeed - Mitre ATT\u0026CK Tactics",
-    "prevName": "Sixgill Darkfeed - Mitre ATT\u0026CK Tactics",
     "dataType": "indicators",
     "widgetType": "pie",
     "query": "sourceBrands:Sixgill_Darkfeed",
     "sort": null,
-    "isPredefined": false,
+    "description": "",
+    "isPredefined": true,
     "dateRange": {
         "fromDate": "0001-01-01T00:00:00Z",
         "toDate": "0001-01-01T00:00:00Z",

@@ -2,20 +2,13 @@
     "id": "sixgill-darkfeed-collected-iocs",
     "version": 1,
     "modified": "2020-06-02T06:46:56.579743988Z",
-    "sortValues": null,
-    "propagationLabels": [
-        "all"
-    ],
-    "vcShouldIgnore": false,
-    "commitMessage": "",
-    "shouldCommit": false,
     "name": "Sixgill Darkfeed - Collected IOCs",
-    "prevName": "Sixgill Darkfeed - Collected IOCs",
     "dataType": "indicators",
     "widgetType": "line",
     "query": "sourceBrands:Sixgill_Darkfeed",
     "sort": null,
-    "isPredefined": false,
+    "description": "",
+    "isPredefined": true,
     "dateRange": {
         "fromDate": "0001-01-01T00:00:00Z",
         "toDate": "0001-01-01T00:00:00Z",
